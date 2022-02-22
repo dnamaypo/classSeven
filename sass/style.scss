@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    color: darkolivegreen;
+}
+a  {
+    color: #000;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    color: darkolivegreen;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+nav li {
+    margin-right: 1em;
+}
+

@@ -4,13 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "watch:eleventy": "npx @11ty/eleventy --serve",
+    "watch:sass": "npx sass sass:_site/css --watch",
+    "start": "npm run watch:eleventy & npm run watch:sass"
+    },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^1.0.0",
     "@11ty/eleventy-navigation": "^0.3.2"
+  },
+  "dependencies": {
+    "sass": "^1.49.8"
   }
 }
