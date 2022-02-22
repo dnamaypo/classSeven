@@ -3,7 +3,11 @@ body {
 }
 
 h1 {
+<<<<<<< HEAD
   color: darkolivegreen;
+=======
+    color: red;
+>>>>>>> 67e2e8a287365c49d38e55f532f5d3666b5916b2
 }
 
 a {
