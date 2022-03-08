@@ -5,4 +5,6 @@ eleventyNavigation:
     key: Home
 ---
 # {{ title }}
-Hey ho! This is the home page!
+## Greetings!
+
+Welcome to my site!
